@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 3498469115
+    locked: 0
+  - name: Walls
+    uniqueID: 3988268833
+    locked: 0
+  - name: Spawns&Cores
+    uniqueID: 2312887465
+    locked: 0
+  - name: AvailableCells
+    uniqueID: 1156975059
+    locked: 0
+  - name: Heatmap
+    uniqueID: 2001943617
+    locked: 0

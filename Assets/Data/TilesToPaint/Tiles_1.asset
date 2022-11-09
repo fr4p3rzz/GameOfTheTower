@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6cf3daf99235af4a8bd9d75fb79ef04, type: 3}
+  m_Name: Tiles_1
+  m_EditorClassIdentifier: 
+  floorTile: {fileID: 11400000, guid: e2c954353a41e7443b7d78f3d5fde78d, type: 2}
+  wallTop: {fileID: 11400000, guid: 1fe7a165f8dd7a444a55b04a6e45f1df, type: 2}
+  wallSideRight: {fileID: 11400000, guid: 2dd63a1de3c9a8343848022467a609a6, type: 2}
+  wallSideLeft: {fileID: 11400000, guid: 4b76fb091ed427e439e51a0fa72321bc, type: 2}
+  wallBottom: {fileID: 11400000, guid: 352768404efcad445b5e5a39d1734441, type: 2}
+  wallFull: {fileID: 11400000, guid: fa901caeea3b6a34dba22c767385e027, type: 2}
+  wallInnerCornerDownLeft: {fileID: 11400000, guid: 9a7a5c46a33e79d44ab047e5cae15f6d, type: 2}
+  wallInnerCornerDownRight: {fileID: 11400000, guid: 117a525fdc52f3849aa677fae99a282e, type: 2}
+  wallDiagonalCornerDownRight: {fileID: 11400000, guid: fa9abd77a706ef94dbe7470fc423db23, type: 2}
+  wallDiagonalCornerDownLeft: {fileID: 11400000, guid: d052229cef102c341ac51083cf160e77, type: 2}
+  wallDiagonalCornerUpRight: {fileID: 11400000, guid: a8979d491de74f34fa1254f1935e7e06, type: 2}
+  wallDiagonalCornerUpLeft: {fileID: 11400000, guid: 82b956269ba250d43954dd65c1f6c98f, type: 2}
+  core: {fileID: 11400000, guid: a52787c010aebe7459171b87a798a87b, type: 2}
+  enemySpawnPoint: {fileID: 11400000, guid: bbc14f4f8598a1d42b348ed1c0043f85, type: 2}
+  availableCell: {fileID: 11400000, guid: 159f0da091e5f3e4f926657c0be43e92, type: 2}

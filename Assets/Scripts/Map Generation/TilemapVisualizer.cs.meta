@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0fd964d6e9e2a594c8e65d9ca8b82638
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - floorTilemap: {instanceID: 0}
+  - wallTilemap: {instanceID: 0}
+  - interactablesTilemap: {instanceID: 0}
+  - floorTile: {fileID: 11400000, guid: 3c7f525424806c24dba7e8c4661ef05e, type: 2}
+  - wallTile: {instanceID: 0}
+  - spawnPointTile: {instanceID: 0}
+  - coreTile: {fileID: 11400000, guid: a52787c010aebe7459171b87a798a87b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
