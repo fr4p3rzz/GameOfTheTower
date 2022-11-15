@@ -25,4 +25,4 @@ WIP tower defence game with roguelike influences, made for mobile platforms
 - Added game object spawner for further developings
 ----
 ## Screenshots
-[Procedural generated map](https://postimg.cc/Sn1dDcHp)
+[![procedural generated map](https://i.postimg.cc/QMhzNbbV/image.png)](https://postimg.cc/Sn1dDcHp)
