@@ -29,6 +29,8 @@ public class RoomFirstDungeonGenerator : PlaygroundGenerator
         cleanData();
         CreateRooms();
         MapManager.GenerateWorld(tilemapVisualizer, mapInformations, DungeonParameters, enemiesSpawnsAtCenter);
+        mapInformations._dungeonHeight = dungeonHeight;
+        mapInformations._dungeonWidth = dungeonWidth;
     }
 
     private void CreateRooms()

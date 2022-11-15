@@ -7,10 +7,12 @@ public class CameraDragMovement : MonoBehaviour
     
     [SerializeField]
     private CameraSettingsSO cameraSettings;
-
+    [SerializeField]
+    private MapInformationsSO mapInformations;
     private Vector3 startPos = Vector3.zero;
     private Vector3 endPos = Vector3.zero;
     private Vector3 direction = Vector3.zero;
+
 
     void FixedUpdate()
     {
@@ -33,7 +35,7 @@ public class CameraDragMovement : MonoBehaviour
 
             float difference = currentMagnitude - startMagnitude;
 
-            Zoom(difference * cameraSettings._zoomSpeed);
+            Zoom(difference * cameraSettings._pinchZoomSpeed);
         }
         else if(Input.GetMouseButton(0)) // move around with both mouse and finger
         {
@@ -41,7 +43,12 @@ public class CameraDragMovement : MonoBehaviour
             endPos = direction + transform.position;    
         }
  
-        if(endPos != Vector3.zero)  
+        // We move only if it is needed and only inside desired boundaries
+        if(endPos != Vector3.zero 
+        && (endPos.x < mapInformations._dungeonWidth + cameraSettings._maxCameraOffsetX 
+        && endPos.x > 0 - cameraSettings._maxCameraOffsetX) 
+        && (endPos.y < mapInformations._dungeonHeight + cameraSettings._maxCameraOffsetY 
+        && endPos.y > 0 - cameraSettings._maxCameraOffsetY))  
         {
             transform.position = Vector3.Lerp(transform.position, endPos, Time.fixedDeltaTime * cameraSettings._dragAcceleration);
         } 

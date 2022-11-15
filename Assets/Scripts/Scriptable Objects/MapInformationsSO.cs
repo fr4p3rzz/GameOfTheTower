@@ -14,6 +14,8 @@ public class MapInformationsSO : ScriptableObject
     public List<Vector2Int> _coresPositions { get { return coresPositions; } private set { coresPositions = value; } }
     public List<Vector2Int> _enemySpawnsPositions { get { return enemySpawnsPositions; } private set { enemySpawnsPositions = value; } }
     public Dictionary<Vector2Int, float> _weightedCells { get { return weightedCells; } private set { weightedCells  = value; } }
+    public int _dungeonWidth { get { return dungeonWidth; }  set { dungeonWidth  = value; } }
+    public int _dungeonHeight { get { return dungeonHeight; }  set { dungeonHeight  = value; } }
 
     [Header("Planimetry informations")]
     [SerializeField]
@@ -32,6 +34,10 @@ public class MapInformationsSO : ScriptableObject
     private List<Vector2Int> enemySpawnsPositions = new List<Vector2Int>();
     [SerializeField]
     private Dictionary<Vector2Int, float> weightedCells = new Dictionary<Vector2Int, float>();
+    [SerializeField]
+    private int dungeonWidth;
+    [SerializeField]
+    private int dungeonHeight;
 
 
 

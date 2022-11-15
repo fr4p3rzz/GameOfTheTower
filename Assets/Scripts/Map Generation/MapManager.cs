@@ -22,7 +22,6 @@ public static class MapManager
         }
 
         FillEntireRoom(tilemapVisualizer, mapInformations, mapInformations._roomGrounds[Random.Range(0, mapInformations._roomGrounds.Count)]);
-
     }
 
     // Randomly choose as many rooms as the cores of the level and spawn a core in it
