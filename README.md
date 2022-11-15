@@ -8,7 +8,7 @@ WIP tower defence game with roguelike influences, made for mobile platforms
 - Use tactic to make the best out of what you find
 - **Break Everything**
 ----
-## Somone said *Randomness*?
+## Someone said *Randomness*?
 - Randomly Generated maps every time
 - Randomly placed cores and enemy spawners
 - Random item pools for powerups with random positions
@@ -18,7 +18,7 @@ WIP tower defence game with roguelike influences, made for mobile platforms
 - Correctly working map generation
 - Correctly working random placement for cores and enemy spawners
 - Correctly working map data collection for map manipulation
-- Correctly working tile weighting for pathfinding and distance calculations 
+- Correctly working tile weighting for pathfinding and vector calculations 
 
 ###### 15/11/2022
 - Correctly working camera movement and zoom for both mouse and touchscreen input
