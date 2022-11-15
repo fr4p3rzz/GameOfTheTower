@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zoomOutMin: 5
   zoomOutMax: 32
-  zoomSpeed: 25
-  dragAcceleration: 7
+  zoomSpeed: 16
+  dragAcceleration: 6.5
